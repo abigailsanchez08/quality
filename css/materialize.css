@@ -9477,9 +9477,19 @@ input[type=range]::-ms-thumb {
 }
 
 .component-table{
+  text-align: center;
   margin-left: -15%;
   width: 130%;
   height: 40%;
+}
+
+.component-table1{
+  text-align: center;
+  margin-left: -20%;
+  width: 100%;
+  height: 40%;
+  border-color: black;
+  border-style: dotted;
 }
 
 /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */

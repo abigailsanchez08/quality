@@ -855,15 +855,14 @@
                   </div>
                   <div class="Division1">
                   </div>
-                  <div class="component-table">
+                  <div class="component-table1">
                     <table>
                       <thead>
                         <tr>
-                          <th>Code</th>
+                          <th>Relation Code</th>
                           <th>Component</th>
                           <th>Characteristic</th>
                           <th>Description</th>
-                          <th>Relation</th>
                         </tr>
                       </thead>
                       <tbody>
@@ -880,15 +879,21 @@
                           </td>
                           <td>
                             <?php
-                              echo "<option value=\"".$result['rela']."\">".$result['rela']."</option>\n";
+                              echo "<option value=\"".$result['rela']."\">".$result['name']."</option>\n";
                             ?>
                           </td>
                           <td>
                             <?php
-                              echo "<option value=\"".$result['rela']."\">".$result['rela']."</option>\n";
+                              echo "<option value=\"".$result['rela']."\">".$result['carac']."</option>\n";
+                            ?>
+                          </td>
+                          <td>
+                            <?php
+                              echo "<option value=\"".$result['rela']."\">".$result['des']."</option>\n";
                             }
                             ?>
                           </td>
+                        </tr>
                       </tbody>
                     </table>
                   </div>
