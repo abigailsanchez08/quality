@@ -1,0 +1,5 @@
+MariaDB [quality_framework]> insert into component_audit
+    -> select null,1,1,4,a.Id_TRCC,11
+    -> from trcc a, check_audit b
+    -> where b.Id_Audit=4 and b.Id_Relation=a.Id_Relation;
+
