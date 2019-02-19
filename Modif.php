@@ -898,7 +898,7 @@
                     </table>
                   </div>
                   <div class="modify">
-                    <h5>Modify User Data</h5>
+                    <h5>Add New Component Data</h5>
                     <form method="POST" action="modify.php">
                       <?php 
                         $reg = mysqli_query($conexion,"SELECT * from tr where Id_Relation = $id");

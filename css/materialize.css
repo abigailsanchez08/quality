@@ -4131,8 +4131,6 @@ body.keyboard-focused .dropdown-content li:focus {
   height: 75%; 
   margin-bottom: 13%;
   margin-top: 10%;
-  border-style: solid;  
-  border-color: blue;
 }
 
 .modif{
@@ -7640,8 +7638,6 @@ input[type=range]::-ms-thumb {
   margin-left: -15%;
   width: 130%;
   height: 40%;
-  border-color: #595959;
-  border-style: dotted;
 }
 
 .component-table1{
@@ -7650,8 +7646,6 @@ input[type=range]::-ms-thumb {
   width: 150%;
   height: 40%;
   overflow: auto;
-  border-color: #595959;
-  border-style: dotted;
 }
 
 /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
